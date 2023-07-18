@@ -32,13 +32,16 @@
           "configurations": {
             "production": {
               "budgets": [
-                     {
-                        "type": "initial",
-                        "exclude": [
-                        "src/app/large-module/**", // Ruta del módulo a excluir
-                        "src/assets/big-image.png" // Ruta del archivo a excluir
-                          ]
-                        }
+               {
+                  "type": "initial",
+                  "maximumWarning": "1mb",
+                  "maximumError": "2mb"
+                },
+                {
+                  "type": "any",
+                  "maximumWarning": "5mb",
+                  "maximumError": "10mb"
+                }
                
               ],
               "outputHashing": "all"
