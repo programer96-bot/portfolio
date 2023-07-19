@@ -1,0 +1,17 @@
+
+<h2>Cursos</h2>
+
+<div>
+  <ul  *ngFor="let estudio of estudios" class="bordes">
+   <li>
+    {{ estudio.getNombre()}}:
+      <br/> &nbsp;
+    {{estudio.getDescripcion()}}
+      <br/>
+    <img [src]="estudio.getImage()" class="imagenes"/>
+  </li>
+
+
+  </ul>
+
+

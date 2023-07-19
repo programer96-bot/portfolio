@@ -1,0 +1,63 @@
+
+
+<div class="p-5">
+  <mat-grid-tile-header>
+
+    <h1 class="animate__animated animate__pulse ">
+      <div class=" animate__animated animate__zoomInDown" [ngStyle]=" {'animation-duration': '3s'}">{{ title }}</div>
+    </h1>
+  </mat-grid-tile-header>
+
+  <mat-grid-list [cols]="columna" rowHeight="100px" >
+    <mat-grid-tile-header>
+      <img mat-card-image src="../../../assets/img/EstebanPerdomo.jpg" alt="mi foto" class="foto">
+  </mat-grid-tile-header>
+
+
+    <mat-grid-tile [colspan]="1" [rowspan]="4" >
+     <div class="lista">
+        <h2 class="animate__animated animate__backInRight">Mis Datos:</h2>
+        <div>
+          <ul class="animate__animated animate__backInRight">
+            <li>{{ esteban.nombres }}</li>
+            <li>{{ esteban.correo }}</li>
+            <li>edad: {{ esteban.Edad + " años" }}</li>
+          </ul>
+        </div>
+      </div>
+    </mat-grid-tile>
+
+    <mat-grid-tile [colspan]="1" [rowspan]="4" >
+      <div class="formularioContacto">
+        <mat-grid-tile-header [ngStyle]="{ background: 'local' }" class="estiloh2">
+          <h2 class="animate__animated animate__backInRight">
+            {{ sigueme }}
+          </h2>
+        </mat-grid-tile-header>
+
+        <formulario></formulario>
+
+          <h4 class="animate__animated animate__flash d-inline footer-animated mt-5" >Mis sitios:</h4>
+
+          <mat-icon (click)="miFacebook()" class="facebook"
+            ><img
+              src="../../../assets/icons/facebook.svg"
+              alt="imagen facebook"
+          /></mat-icon>
+
+          <mat-icon (click)="miWhatssap()" class="whassap"
+            ><img
+              src="../../../assets/icons/whatsapp.svg"
+              alt="imagen whatsapp"
+          /></mat-icon>
+
+          <mat-icon (click)="miLinkedin()" class="linkedin">
+            <img
+              src="../../../assets/icons/linkedin.svg"
+              alt="imagen linkedin"
+            />
+          </mat-icon>
+        </div>
+     </mat-grid-tile>
+  </mat-grid-list>
+</div>

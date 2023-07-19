@@ -1,0 +1,190 @@
+h1{
+
+  font-family: emoji;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  color: mediumblue;
+  letter-spacing: 5px;
+  animation-duration: 2s;
+  font-size: 50px;
+  animation-iteration-count: infinite
+
+
+}
+
+h2{
+  color: slateblue;
+  font-family: math;
+  animation-duration: 3s;
+}
+
+.estiloh2{
+  font-size: 30px;
+  background-color: local;
+}
+.formularioContacto{
+  background-color: white;
+  padding: 30px;
+  width: 100%;
+  border-radius: 5px;
+}
+ ul{
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+}
+ ul li{
+
+
+  padding-top: 5px;
+  margin-top: 1px;
+  list-style-type: circle;
+  font-family: math;
+  font-size: 20px;
+  color: blue;
+  letter-spacing: 1px;
+  margin-left: 2px;
+
+}
+
+.lista{
+
+  margin-top: 163px;
+}
+.foto{
+  margin-top: 35px;
+  height: 150px;
+  border-radius: 10px;
+
+}
+.facebook{
+
+  color: blue;
+  font-size: 18px;
+  font-weight: inherit;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 25px;
+  transform: scale(1.5);
+}
+.whassap{
+
+
+  color: #075e54;
+  font-size: 18px;
+  font-weight: inherit;
+  cursor: pointer;
+  transform: scale(1.5);
+  margin-right: 25px;
+
+}
+.linkedin{
+
+
+  color: #007BB6;
+  transform: scale(1.5);
+  font-size: 18px;
+  font-weight: inherit;
+  cursor: pointer;
+
+}
+.mat-button-toggle{
+  padding: 100px !important;
+  width: 100% !important;
+}
+
+.footer-animated{
+
+
+  color: darkblue;
+  box-shadow: 0px 0px 2px gray;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  scroll-behavior: smooth;
+  background-color: rgba(8, 4, 40, 0.2);
+  animation-duration: 3s;
+  animation-iteration-count: infinite
+}
+.footer-animated{
+
+
+  border: 1px dashed steelblue;
+  width: 100%;
+}
+.facebook:hover{
+  transform: scale(2);
+  transition: all 0.4s;
+}
+.linkedin:hover{
+  transform: scale(2);
+  transition: all 0.4s;
+}
+.whassap:hover{
+  transform: scale(2);
+  transition: all 0.4s;
+}
+
+@media(width < 821px) {
+
+  ul li{
+     font-size: 18px;
+   }
+ }
+
+ @media(width < 612px) {
+
+  h1{
+    font-size: 30px;
+  }
+}
+
+@media(width < 300px) {
+
+  h1{
+    font-size: 20px;
+  }
+}
+
+@media(width < 764px){
+  .lista{
+    margin-top: 162px !important;
+ }
+}
+
+
+ @media(width < 764px){
+  .lista{
+    margin-top: 157px !important;
+
+ }
+}
+
+@media(width < 764px){
+ .lista h2{
+    margin-top: 20px !important;
+    font-size: 20px;
+    margin-bottom: 1px;
+
+
+
+ }
+}
+@media(width < 429px) {
+
+  ul li{
+     font-size: 17px;
+   }
+ }
+ @media(width < 413px) {
+
+  ul li{
+     font-size: 15px;
+   }
+ }
+ @media(width < 380px) {
+
+  ul li{
+     font-size: 14px;
+   }
+ }
