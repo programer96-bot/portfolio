@@ -20,6 +20,7 @@ public setArregloEstudio():void{
         new Estudio("Java Foundations", "Java SE", "../../assets/img/course_certificate.jpg"),
         new Estudio("Universidad Java", "Aprende Java Desde Cero a Experto", "../../assets/img/universidadJava.jpg"),
         new Estudio("AWS PRACTITIONER", "AWS CLOUD PRACTITIONER", "../../assets/img/AWS.jpg"),
+        new Estudio("Desarrollo de Aplicaciones con Manejo de Datos JAVA", "Desarrollo de Aplicaciones con Manejo de Datos en la Memoria-JAVA", "../../assets/img/DesarrolloAplicaciones.jpg"),
 
   ];
 }
