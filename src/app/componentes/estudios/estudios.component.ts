@@ -12,7 +12,7 @@ export class EstudiosComponent {
   public estudios: Array<Estudio>
   constructor(private servicioCursos: ServiciosService){
     this.estudios = new Array();
-    
+
     this.mostrarServicio();
   }
 
@@ -20,6 +20,4 @@ export class EstudiosComponent {
     this.estudios = this.servicioCursos.getArregloEstudio();
     console.log(this.servicioCursos.getArregloEstudio);
   }
-
-
 }
