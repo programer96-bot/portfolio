@@ -30,5 +30,5 @@ public setArregloEstudio():void{
 public getArregloEstudio():Array<Estudio>{
   console.log(this.cursos)
   return this.cursos;
-}
+  }
 }
