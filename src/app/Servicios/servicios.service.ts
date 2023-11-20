@@ -24,7 +24,8 @@ public setArregloEstudio():void{
         new Estudio("Desarrollo de Applets", "Desarrollo de Applets/Aplicaciones con uso de Bases de Datos,Redes,Servlets y Multimedia", "../../assets/img/appletsRedes.jpg"),
         new Estudio("Marco de trabajo SCRUM", "Aplicacion del Marco de Trabajo SCRUM para Proyectos de Desarrollo de Software", "../../assets/img/certificadoScrum.jpg"),
         new Estudio("Variables y Estructuras de Control Java", "Variables y Estructuras de Control con JAVA", "../../assets/img/VARIABLESYESTRUCTURAS.jpg"),
-        new Estudio("Diseño de Bases de Datos", "Database Design", "../../assets/img/diseñoDeBasesDeDatos_page-0001.jpg")
+        new Estudio("Diseño de Bases de Datos", "Database Design", "../../assets/img/diseñoDeBasesDeDatos_page-0001.jpg"),
+        new Estudio("Diseño de Bases de Datos", "Database Design", "../../assets/img/CERTIFICADOHTML.jpg")
   ];
 }
 
